@@ -1,6 +1,7 @@
 // import './enum'
 // import './interface'
-import './function'
+// import './function'
+import './class1'
 let hello: string = 'Hello Typescript'
 document.querySelectorAll('.app')[0].innerHTML = hello
 let decLiteral: number = 6
