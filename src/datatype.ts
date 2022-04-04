@@ -1,3 +1,10 @@
+/*
+ * @Author: willian126@126.com
+ * @Description: 第一章：基础篇；05|基本类型
+ * @Date: 2020-04-23 20:05:06
+ * @LastEditors: willian126@126.com
+ * @LastEditTime: 2022-03-17 18:10:52
+ */
 let bool: boolean = true
 let num: number | undefined | null = 123
 let str: string = 'abc'

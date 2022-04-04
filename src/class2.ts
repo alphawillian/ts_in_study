@@ -1,3 +1,10 @@
+/*
+ * @Author: willian126@126.com
+ * @Description: 文件描述
+ * @Date: 2021-05-10 18:02:18
+ * @LastEditors: willian126@126.com
+ * @LastEditTime: 2022-04-01 17:56:58
+ */
 abstract class Animal {
   eat() {
     console.log('eat')
@@ -45,4 +52,4 @@ class Myflow extends WorkFlow {
     return this
   }
 }
-new Myflow().next().step1().next().step2()
+// new Myflow().next().step1().next().step2()

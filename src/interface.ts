@@ -10,13 +10,14 @@ interface Lib {
   version: string
   doSomething(): void
 }
-function getLib () {
+function getLib (str: string) {
   let lib: Lib = (() => {}) as Lib
   lib.version = '1.0'
-  lib.doSomething = () => {}
+  lib.doSomething = () => {console.log('str:', str)}
   return lib
 }
-let lib1 = getLib()
+let lib1 = getLib('lib1')
 lib1()
 lib1.doSomething()
-let lib2 = getLib()
+let lib2 = getLib('lib2')
+lib2.doSomething()
